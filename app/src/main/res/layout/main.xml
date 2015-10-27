@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/lim" >
+
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:id="@+id/container"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/homework"
+            android:layout_width="0dp"
+            android:background="@android:color/transparent"
+
+            android:layout_height="wrap_content"
+            android:text="@string/homework"
+            android:layout_weight="1"
+
+            />
+
+        <Button
+            android:id="@+id/test"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/test"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/timetable"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/timetable"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
